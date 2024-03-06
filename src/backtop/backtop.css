@@ -1,0 +1,28 @@
+.back-top-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+    background-color: #a855f7;
+    font-size: 20px;
+    padding: 0px;
+    border-radius: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 300ms ease-in;
+    z-index: 2;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 2px solid #000;
+    
+  }
+  
+  .back-top-btn.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  .back-top-btn:hover{
+    background-color: #ffffff;
+    
+  }
